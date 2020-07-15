@@ -24,7 +24,6 @@ input {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-items: center;
   max-width: 100%;
 }
 
@@ -33,16 +32,20 @@ input {
   border: 1px solid black;
   margin: 5px;
   overflow: hidden;
+  max-height:280px;
+  height: 280px;
+  width: 280px;
 }
 
 .card p {
   text-align: center;
-  word-break: break-all;
+  height: 20%;
 }
 
 .card img{
-  max-height: 250px;
   vertical-align: bottom;
+  height: 80%;
+  width: 100%;
 }
 
 .loader {

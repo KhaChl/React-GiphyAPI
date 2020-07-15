@@ -11,16 +11,14 @@ export const GifApp = () => {
             <h1>GifAPP</h1>
             <AddCategory setCategory={setCategory} />
             <hr />
-            <ul>
-                {
-                    category.map((category, index) =>
-                        <GifList
-                            key={index}
-                            category={category}
-                        />
-                    )
-                }
-            </ul>
+            {
+                category.map((category, index) =>
+                    <GifList
+                        key={index}
+                        category={category}
+                    />
+                )
+            }
         </>
     );
 };

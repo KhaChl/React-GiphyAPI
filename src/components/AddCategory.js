@@ -23,6 +23,7 @@ export const AddCategory = ({ setCategory }) => {
                 type="text"
                 value={inputValue}
                 onChange={handleInputChange}
+                placeholder="Search all Gif"
             />
         </form>
     );
